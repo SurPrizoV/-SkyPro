@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.items {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.first_screen {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.second_screen {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+a {
+    font-size: 48px;
+    color: black;
+}
+
+a:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+p {
+    font-size: 48px;
+    color: black;
+}
